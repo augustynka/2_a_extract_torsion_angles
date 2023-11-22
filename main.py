@@ -45,15 +45,15 @@ def extract_torsion_angles(structure):
                                                                      next_residue["O5'"])
 
                         # kąty dla cukru
-                        angles['nu0'] = calculate_torsion_angle(residue["C4'"], residue["O4'"], residue["C1'"],
+                        angles['v0'] = calculate_torsion_angle(residue["C4'"], residue["O4'"], residue["C1'"],
                                                                 residue["C2'"])
-                        angles['nu1'] = calculate_torsion_angle(residue["O4'"], residue["C1'"], residue["C2'"],
+                        angles['v1'] = calculate_torsion_angle(residue["O4'"], residue["C1'"], residue["C2'"],
                                                                 residue["C3'"])
-                        angles['nu2'] = calculate_torsion_angle(residue["C1'"], residue["C2'"], residue["C3'"],
+                        angles['v2'] = calculate_torsion_angle(residue["C1'"], residue["C2'"], residue["C3'"],
                                                                 residue["C4'"])
-                        angles['nu3'] = calculate_torsion_angle(residue["C2'"], residue["C3'"], residue["C4'"],
+                        angles['v3'] = calculate_torsion_angle(residue["C2'"], residue["C3'"], residue["C4'"],
                                                                 residue["O4'"])
-                        angles['nu4'] = calculate_torsion_angle(residue["C3'"], residue["C4'"], residue["O4'"],
+                        angles['v4'] = calculate_torsion_angle(residue["C3'"], residue["C4'"], residue["O4'"],
                                                                 residue["C1'"])
 
                         # kąt chi dla zasady azotowej
